@@ -1,0 +1,4 @@
+tasks:
+  - before: |
+      setxkbmap -option 'grp:alt_shift_toggle,grp:us,grp:de'
+      setxkbmap us -variant altgr-intl
